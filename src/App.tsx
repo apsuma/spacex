@@ -42,20 +42,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p> My first Apollo app  </p>
+        <h1> My first Apollo app  </h1>
         { data.launches.map((launch: LaunchType) => (
           <Launch key={launch.id} launch={launch}/>        
         ))}
-
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );

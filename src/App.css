@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
 }
 
 .App-logo {
@@ -34,7 +38,6 @@
   align-items: center;
   justify-content: space-between;
   padding: 2rem;
-  background-color: cadetblue;
 }
 
 @keyframes App-logo-spin {

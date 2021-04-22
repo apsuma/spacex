@@ -43,9 +43,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        My first Apollo app 🚀
-        </p>
+        <p> My first Apollo app  </p>
         { data.launches.map((launch: LaunchType) => (
           <Launch key={launch.id} launch={launch}/>        
         ))}
